@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>LM_U2_T1:Basic_HTML_Ex3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F2F2F2;
+        }
+        h1 {
+            text-align: center;
+            font-weight: bold;
+        }
+        form {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #F2F2F2;
+            border: 2px solid #333;
+            border-radius: 5px;
+        }
+        .section {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #D3D3D3;
+            border: 1px solid #333;
+        }
+        label {
+            font-weight: bold;
+            display: inline-block;
+            width: 150px;
+        }
+
+        select {
+            width: calc(100% - 160px);
+            padding: 5px;
+            border: 1px solid #333;
+        }
+        .required {
+            color: red;
+        }
+        .options {
+            display: flex;
+            justify-content: space-around;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de reserva de salas</h1>
+    <form>
+        <div class="section">
+            <label>Tu Nombre <span class="required"></span></label>
+            <input type="text" placeholder="Nombre" required>
+        </div>
+
+        <div class="section">
+            <label>Tu Correo electrónico <span class="required"></span></label>
+            <input type="email" placeholder="Correo Electrónico" required></input>
+        </div>
+        <div class="section">
+            <label>Departamento:<span class="required"></span></label>
+            <select>
+                <option value="ventas">Ventas</option>
+                <option value="marqueting">Marketing</option>
+                <option value="it">IT</option>
+            </select>
+        </div>
+        <div class="section">
+            <label>Tipo de sala que desea reservar:<span class="required"></span></label>
+            <div class="options">
+                <label><input type="radio" name="tipo_sala" required>Tipo A</label>
+                <label><input type="radio" name="tipo_sala" required>Tipo B</label>
+                <label><input type="radio" name="tipo_sala" required>Tipo C</label>
+            </div>
+        </div>
+        <div class="section">
+            <label>Requisitos extra:</label><br>
+            <label><input type="checkbox"> Caballete y bolígrafos</label><br>
+            <label><input type="checkbox"> Televisión</label><br>
+            <label><input type="checkbox"> Café, té y agua</label>
+        </div>
+
+        <div class="section">
+            <label>Fecha de la reserva: <span class="required">*</span></label>
+            <input type="date" required>
+        </div>
+
+        <div class="section">
+            <label>Hora de la reserva: <span class="required">*</span></label>
+            <input type="time" required>
+        </div>
+    </form>
+</body>
+</html>

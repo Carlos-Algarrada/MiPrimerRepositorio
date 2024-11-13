@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head><!-- Aqui solo hay metadatos, nada de esto se muestra en la pagina web-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>titulo</title>
+        <!-- Otras referencias como a los CSS o ell archivo JavaScript-->
+        <!--Esto es para que la tabla sea tabla-->
+        <style>
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!-- Todo lo que ha aqui se muestra en la página web-->
+        <h1>Un título</h1>
+        <h2>Un Título mas pequeño</h2>
+        <h3>Un Título aún más pequeño </h3>
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente unde illo praesentium reprehenderit adipisci omnis sunt facere odio, commodi molestiae, voluptas quibusdam harum? Doloribus, incidunt necessitatibus quidem et voluptas asperiores.</span>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur assumenda at aut culpa distinctio dolor, doloribus et eum hic incidunt libero maxime molestias omnis quia reiciendis, sit sunt voluptatem.</span>
+        <h4>Y esto es con parrafo</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eum eveniet expedita illo iste laudantium nihil odit officia perferendis praesentium provident quasi ratione, rerum suscipit, totam, ullam unde vel veniam.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, dolorum ea eligendi illum maxime mollitia nesciunt nihil numquam officiis perspiciatis placeat provident quas, recusandae reiciendis reprehenderit rerum tempora tempore velit.</p>
+        <!-- Hasta aqui los elementos que son basicos-->
+        <div>Hola mundo</div> <!-- Comunmente conocido como contenedores-->
+        <div>Adios mundo</div>
+        <img src="sources/descarga.jpeg" alt="Aqui hay una foto de un mono">
+        <br> <!-- breakpoint, no se suele usar :( -->
+        <a href="https://www.google.es">Google</a>
+        <!--Tablas-->
+        <!-- rowspan="" pal lao
+             colspan="" pa bajo
+             -->
+        <table style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+                <td rowspan ="2" colspan="2">Celda 1.1</td>
+                <td rowspan="3">Celda 1.3</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td colspan="2">Celda 3.1</td>
+            </tr>
+            <tr>
+                <td>Celda 4.1</td>
+                <td colspan="2">Celda 4.2</td>
+            </tr>
+            <tr>
+                <td>Celda 5.1</td>
+                <td>Celda 5.2</td>
+                <td>Celda 5.3</td>
+            </tr>
+        </table>
+        <!-- Listas-->
+        <h1>Lista ordenada(Ordered List) (ol)</h1>
+        <ol>
+            <li>numeracion numerada con la categoria primera</li>
+            <li>numeracion numerada con la categoria segunda</li>
+        </ol>
+        <h1>Lista desordenada (Unordered List) (ul)</h1>
+        <ul>
+            <li> algo</li>
+            <li>cosa algo</li>
+            <li> incrusto otra lista
+                <ol>
+                    <li> incrustacion</li>
+                    <li> incrustacion</li>
+                </ol>
+            </li>
+        </ul>
+        <form action="" method="">
+            <!-- Campor formulario-->
+            <label for=>Nombre de usuario</label><input type="text" id="usuario">
+            <input type ="submit" value="Enviar">
+        </form>
+    </body>
+</html>
