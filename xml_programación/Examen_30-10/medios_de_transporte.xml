@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<medios_transporte>
+    <medio_transporte>>
+        <tipo>Ferrocarril</tipo>
+        <velocidad_maxima>180km/h</velocidad_maxima>
+        <contaminacion>50 co²/km</contaminacion>
+        <cantidad_pasajeros>300</cantidad_pasajeros>
+        <medio>Vias de tren</medio>
+        <Subtipo>
+            <tipo>Ave</tipo>
+            <velocidad_maxima>300km/h</velocidad_maxima>
+            <contaminacion> 30 co²/km</contaminacion>
+            <matricula>AV-00525258</matricula>
+        </Subtipo>
+        <subtipo>
+            <tipo>Cercanias</tipo>
+            <velocidad_maxima>100 km/h</velocidad_maxima>
+            <contaminacion> 40 co²/km</contaminacion>
+            <cantidad_pasajeros>200</cantidad_pasajeros>
+        </subtipo>
+    </medio_transporte>
+    <medio_transporte>
+        <tipo>Autobus</tipo>
+        <velocidad_maxima>120km/h</velocidad_maxima>
+        <contaminacion>100 co²/km</contaminacion>
+        <cantidad_pasajeros>50</cantidad_pasajeros>
+        <medio>Carreteras</medio>
+        <matricula>CO-5858-ACD</matricula>
+    </medio_transporte>
+    <medio_transporte>
+        <tipo>Avión</tipo>
+        <velocidad_maxima>400km/h</velocidad_maxima>
+        <contaminacion>20 co²/km</contaminacion>
+        <cantidad_pasajeros>400</cantidad_pasajeros>
+        <medio>Aire</medio>
+        <matricula>RAN-5845438-LOP</matricula>
+    </medio_transporte>
+    <Conductores>
+        <conductor>
+            <Dni>80163273Q</Dni>
+            <numero_tlf>722365300</numero_tlf>
+            <matricula>AV-00525258</matricula>
+        </conductor>
+        <conductor>
+            <Dni>80131923S</Dni>
+            <numero_tlf>642525252</numero_tlf>
+            <matricula>CO-5858-ACD</matricula>
+        </conductor>
+        <conductor>
+            <Dni>31858545X</Dni>
+            <numero_tlf>699758125</numero_tlf>
+            <matricula>RAN-5845438-LOP</matricula>
+        </conductor>
+    </Conductores>
+</medios_transporte>

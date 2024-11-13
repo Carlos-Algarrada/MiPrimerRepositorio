@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+
+<!--Usando XML crea un fichero XML  (ex1.xml) para representar la cartelera de un cine. 
+Deberemos guardar información de todas las películas proyectadas, la sala y las sesiones 
+en las que se proyecta cada película e información sobre el director, los protagonistas y 
+un pequeño resumen de las mismas.
+Nota: Al menos 5 películas, 3 sesiones y un director y dos protagonistas por película.-->
+
+<cartelera>
+    <dias>
+        <dia> 
+            <sala>
+                <sesiones>
+                    <sesion>
+                            <hora> 17:00</hora>
+                            <pelicula>
+                                <nombre>nombre pelicula 1</nombre>
+                                <director>director</director>
+                                <protagonista> protagonista 1 </protagonista>
+                                <protagonista> protagonista 2 </protagonista>
+                                <resumen> 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </resumen>
+                            </pelicula>
+                    </sesion>
+                    <sesion>
+                            <hora> 19:00</hora>
+                            <pelicula>
+                                <nombre>nombre pelicula 2</nombre>
+                                <director>director</director>
+                                <protagonista> protagonista 1 </protagonista>
+                                <protagonista> protagonista 2 </protagonista>
+                                <resumen> 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </resumen>
+                            </pelicula>
+                    </sesion>
+                </sesiones>
+            </sala>
+        </dia>
+        <dia> 
+            <sala>
+                <sesiones>
+                    <sesion>
+                            <hora> 17:00</hora>
+                            <pelicula>
+                                <nombre>nombre pelicula 1</nombre>
+                                <director>director</director>
+                                <protagonista> protagonista 1 </protagonista>
+                                <protagonista> protagonista 2 </protagonista>
+                                <resumen> 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </resumen>
+                            </pelicula>
+                    </sesion>
+                    <sesion>
+                            <hora> 19:00</hora>
+                            <pelicula>
+                                <nombre>nombre pelicula 2</nombre>
+                                <director>director</director>
+                                <protagonista> protagonista 1 </protagonista>
+                                <protagonista> protagonista 2 </protagonista>
+                                <resumen> 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </resumen>
+                            </pelicula>
+                    </sesion>
+                </sesiones>
+            </sala>
+        </dia>
+    </dias>
+
+</cartelera>

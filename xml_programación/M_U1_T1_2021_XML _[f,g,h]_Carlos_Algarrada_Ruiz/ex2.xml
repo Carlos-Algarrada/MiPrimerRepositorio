@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<!--
+Usando XML crea un fichero (ex2.xml). El fichero nos servirá para representar un 
+clúster de máquinas virtuales. Dicho clúster está compuesto por varios nodos de 
+los que debemos guardar su nombre y su ip.
+
+Dentro de cada uno de estos nodos se pueden albergar distintas máquinas virtuales. 
+De dichas máquinas virtuales necesito guardar el nombre, el sistema operativo que 
+ejecuta y los distintos interfaces de red de los que guardaré su ip y su mac.
+
+Representar al menos 5 nodos , cada uno de ellos con al menos 3 máquinas virtuales. 
+De esas 15 máquinas virtuales al menos 3 deben de tener más de un interfaz de red.
+-->
+
+<Cluster>
+    <Nodo>
+        <Nombre>Nodo1</Nombre>
+        <Ip>0.0.0.0</Ip>
+        <Maquinavirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+        </Maquinavirtual>
+        <MaquinaVirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+        </MaquinaVirtual>
+        <MaquinaVirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+            <InterfazRed>
+                <IP>0.0.0.0</IP>
+                <MAC>00:00:00:00:00:00</MAC>
+            </InterfazRed>
+        </MaquinaVirtual>
+    </Nodo>
+
+    <Nodo>
+        <Nombre>Nodo2</Nombre>
+        <Ip>0.0.0.0</Ip>
+        <Maquinavirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+        </Maquinavirtual>
+        <MaquinaVirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+        </MaquinaVirtual>
+        <MaquinaVirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+        </MaquinaVirtual>
+    </Nodo>
+
+    <Nodo>
+        <Nombre>Nodo3</Nombre>
+        <Ip>0.0.0.0</Ip>
+        <Maquinavirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+        </Maquinavirtual>
+        <MaquinaVirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+        </MaquinaVirtual>
+        <MaquinaVirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+        </MaquinaVirtual>
+    </Nodo>
+
+    <Nodo>
+        <Nombre>Nodo4</Nombre>
+        <Ip>0.0.0.0</Ip>
+        <Maquinavirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+        </Maquinavirtual>
+        <MaquinaVirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+        </MaquinaVirtual>
+        <MaquinaVirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+        </MaquinaVirtual>
+    </Nodo>
+
+    <Nodo>
+        <Nombre>Nodo5</Nombre>
+        <Ip>0.0.0.0</Ip>
+        <Maquinavirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+        </Maquinavirtual>
+        <MaquinaVirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+        </MaquinaVirtual>
+        <MaquinaVirtual>
+            <Nombre>Nombre</Nombre>
+            <Sistemaoperativo>Sistemaoperativo</Sistemaoperativo>
+            <Interfazred>
+                <IP>00.0.0.0</IP>
+                <MAC>00:00:00:00:00:</MAC>
+            </Interfazred>
+        </MaquinaVirtual>
+    </Nodo>
+</Cluster>

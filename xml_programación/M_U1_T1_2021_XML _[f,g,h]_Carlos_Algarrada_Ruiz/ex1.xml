@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<!--
+Usando XML crea un fichero XML (ex1.xml) para representar los partidos
+de un torneo de tenis. Para el torneo  debemos guardar el nombre y las 
+fechas de inicio y de finalización del torneo.
+
+Y para cada partido debemos guardar la fecha del partido, los datos personales 
+de los jugadores y los resultados de todos y cada uno de los sets (al menos 
+tres sets por partido).
+
+Representar al menos 10 partidos.
+-->
+
+<torneo>
+    <nombre>nombre</nombre>
+    <fecha_inicio>fecha</fecha_inicio>
+    <fecha_finalizacion>fecha</fecha_finalizacion>
+    <partidos>
+        <partido>
+            <fecha>fecha</fecha>
+            <jugador>jugador</jugador>
+            <jugador>jugador</jugador>
+            <sets>
+                <set>jugador</set>
+                <set>jugador</set>
+                <set>jugador</set>
+            </sets>
+        </partido>
+        <partido>
+            <fecha>fecha</fecha>
+            <jugador>jugador</jugador>
+            <jugador>jugador</jugador>
+            <sets>
+                <set>jugador</set>
+                <set>jugador</set>
+                <set>jugador</set>
+            </sets>
+        </partido>
+        <partido>
+            <fecha>fecha</fecha>
+            <jugador>jugador</jugador>
+            <jugador>jugador</jugador>
+            <sets>
+                <set>jugador</set>
+                <set>jugador</set>
+                <set>jugador</set>
+            </sets>
+        </partido>
+        <partido>
+            <fecha>fecha</fecha>
+            <jugador>jugador</jugador>
+            <jugador>jugador</jugador>
+            <sets>
+                <set>jugador</set>
+                <set>jugador</set>
+                <set>jugador</set>
+            </sets>
+        </partido>
+        <partido>
+            <fecha>fecha</fecha>
+            <jugador>jugador</jugador>
+            <jugador>jugador</jugador>
+            <sets>
+                <set>jugador</set>
+                <set>jugador</set>
+                <set>jugador</set>
+            </sets>
+        </partido>
+        <partido>
+            <fecha>fecha</fecha>
+            <jugador>jugador</jugador>
+            <jugador>jugador</jugador>
+            <sets>
+                <set>jugador</set>
+                <set>jugador</set>
+                <set>jugador</set>
+            </sets>
+        </partido>
+        <partido>
+            <fecha>fecha</fecha>
+            <jugador>jugador</jugador>
+            <jugador>jugador</jugador>
+            <sets>
+                <set>jugador</set>
+                <set>jugador</set>
+                <set>jugador</set>
+            </sets>
+        </partido>
+        <partido>
+            <fecha>fecha</fecha>
+            <jugador>jugador</jugador>
+            <jugador>jugador</jugador>
+            <sets>
+                <set>jugador</set>
+                <set>jugador</set>
+                <set>jugador</set>
+            </sets>
+        </partido>
+        <partido>
+            <fecha>fecha</fecha>
+            <jugador>jugador</jugador>
+            <jugador>jugador</jugador>
+            <sets>
+                <set>jugador</set>
+                <set>jugador</set>
+                <set>jugador</set>
+            </sets>
+        </partido>
+        <partido>
+            <fecha>fecha</fecha>
+            <jugador>jugador</jugador>
+            <jugador>jugador</jugador>
+            <sets>
+                <set>jugador</set>
+                <set>jugador</set>
+                <set>jugador</set>
+            </sets>
+        </partido>
+    </partidos>
+</torneo>

@@ -1,0 +1,89 @@
+1.Ejercicio 1: Usa el comando pwd para mostrar el directorio actual en el que te encuentras.
+
+carlos@carlos-ThinkPad-T470p:~$ pwd
+
+2.Ejercicio 2: Lista el contenido del directorio /bin usando el comando ls.
+
+carlos@carlos-ThinkPad-T470p:~$ ls /bin
+
+3.Ejercicio 3: Cambia al directorio /home usando el comando cd. Usa pwd para verificar que te encuentras en /home.
+
+carlos@carlos-ThinkPad-T470p:~$ cd /home ; pwd
+
+4.Ejercicio 4: Crea un nuevo directorio llamado practicas en tu directorio personal utilizando mkdir.
+
+carlos@carlos-ThinkPad-T470p:/home$ mkdir ~/practicas
+
+5.Ejercicio 5: Usa el comando touch para crear un archivo vacío llamado prueba.txt dentro del directorio practicas.
+
+carlos@carlos-ThinkPad-T470p:/home$ touch ~/practicas/prueba.txt
+
+6.Ejercicio 6: Cambia al directorio /etc y lista todos los archivos, incluidos los ocultos, usando ls -a.
+
+carlos@carlos-ThinkPad-T470p:/home$ cd /etc ; ls -a
+
+7.Ejercicio 7: Dentro del directorio /home, crea una estructura de directorios llamada proyectos/desarrollo/web.
+
+carlos@carlos-ThinkPad-T470p:~$ mkdir -p proyectos/desarrollo/web
+
+8.Ejercicio 8: Copia el archivo prueba.txt desde practicas a la carpeta recién creada web usando el comando cp.
+
+carlos@carlos-ThinkPad-T470p:~$ cp practicas/prueba.txt proyectos/desarrollo/web
+carlos@carlos-ThinkPad-T470p:~$ ls ~/proyectos/desarrollo/web
+prueba.txt
+
+9.Ejercicio 9: Mueve el archivo prueba.txt dentro de web a una nueva carpeta llamada backup dentro de desarrollo usando el comando mv.
+
+carlos@carlos-ThinkPad-T470p:~$ mkdir proyectos/desarrollo/backup ; mv proyectos/desarrollo/web/prueba.txt  proyectos/desarrollo/backup/
+
+10.Ejercicio 10: Cambia los permisos de tu archivo prueba.txt en backup para que solo tú (el propietario) puedas leer y escribir en él. Usa el comando chmod 600 seguido de la ruta del archivo.
+
+11.Ejercicio 11: Elimina el archivo prueba.txt de la carpeta backup usando el comando rm.
+
+carlos@carlos-ThinkPad-T470p:~$ rm proyectos/desarrollo/backup/prueba.txt
+
+12.Ejercicio 12: Cambia al directorio /var/log y usa el comando ls -lh para mostrar una lista detallada y humanamente legible de los archivos.
+
+carlos@carlos-ThinkPad-T470p:~$ cd /var/log ; ls -lh
+
+13.Ejercicio 13: Usando el comando man, consulta el manual del comando mkdir y escribe en qué consiste la opción -p.
+
+no hay error si existe, cree directorios principales según sea necesario, con
+sus modos de archivo no se ven afectados por ninguna opción -m.
+
+14.Ejercicio 14: En tu directorio personal, crea un archivo vacío llamado log.txt usando el comando touch. Luego, cambia su fecha de modificación a la fecha y hora actual.
+
+carlos@carlos-ThinkPad-T470p:~$ cd ~; touch log.txt ; touch log.txt
+
+15.Ejercicio 15: Usa cp -r para copiar todo el contenido del directorio /etc a una nueva carpeta llamada etc_backup en tu directorio personal. Verifica el contenido del directorio etc_backup con ls.
+
+carlos@carlos-ThinkPad-T470p:~$ mkdir etc_backup ; cp -r /etc ~/etc_backup ; ls etc_backup
+
+16.Ejercicio 16: Elimina de manera recursiva el directorio etc_backup con el comando rm -r.
+
+carlos@carlos-ThinkPad-T470p:~$ rm -r etc_backup
+
+17. Ejercicio 17: Crea un nuevo archivo dentro del directorio /tmp y luego cambia su nombre usando el comando mv para renombrarlo como archivo_temporal.txt.
+
+carlos@carlos-ThinkPad-T470p:~$ touch /tmp/archivo.txt ; mv /tmp/archivo.txt /tmp/archivo_temporal.txt
+
+18.Ejercicio 18: Explora el contenido del directorio /dev y describe tres dispositivos que encuentres en él usando ls /dev. Investiga el propósito de uno de estos dispositivos.
+
+carlos@carlos-ThinkPad-T470p:~$ ls /dev
+carlos@carlos-ThinkPad-T470p:~$ ls /dev/random // Genera números aleatorios.
+carlos@carlos-ThinkPad-T470p:~$ ls /dev/zero
+carlos@carlos-ThinkPad-T470p:~$ ls /dev/loop
+
+19.Ejercicio 19: Mueve el archivo archivo_temporal.txt a tu directorio personal usando mv. Luego, usa el comando ls -l para mostrar los detalles del archivo.
+
+carlos@carlos-ThinkPad-T470p:~$ mv /tmp/archivo_temporal.txt ~/
+carlos@carlos-ThinkPad-T470p:~$ ls -l archivo_temporal.txt 
+-rw-rw-r-- 1 carlos carlos 0 oct  1 08:42 archivo_temporal.txt
+
+20.Ejercicio 20: Navega al directorio ~ y crea una estructura de directorios llamada soft/pruebas. Dentro de este directorio, crea varios archivos vacíos (test1.txt, test2.txt, test3.txt) usando un solo comando touch.
+
+carlos@carlos-ThinkPad-T470p:/$ cd ~; mkdir -p soft/pruebas; touch soft/pruebas/text1.txt soft/pruebas/test2.txt soft/pruebas/text3.txt
+carlos@carlos-ThinkPad-T470p:~$ ls soft/pruebas
+test2.txt,  text1.txt,  text3.txt
+
+

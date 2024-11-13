@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ex2.xsd" orderid="">
+    <orderperson> 1</orderperson>
+    <shipto>
+        <name>pepe</name>
+        <address>calle manzanares 24</address>
+        <city>guarroman</city>
+        <country>españa</country>
+    </shipto>
+    <item>
+        <title>papito rico</title>
+        <note> es una salsa</note>
+        <quantity>5</quantity>
+        <price>99.99</price>
+    </item>
+</shiporder>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<steam>
+    <perfil>
+        <nombre>Carlos</nombre>
+        <edad>24</edad>
+        <dinero>0</dinero>
+    </perfil>
+    <biblioteca>
+        <juego>
+            <titulo>Minecraft</titulo>
+            <horas>8000</horas>
+            <ultimapartida>2018</ultimapartida>
+        
+        </juego>
+        <juego>
+            <titulo>Inazuma Eleven</titulo>
+            <horas>60</horas>
+            <ultimapartida>2020</ultimapartida>       
+        </juego>
+        <juego>
+            <titulo>Far Cry 6</titulo>
+            <horas>50</horas>
+            <ultimapartida>2023</ultimapartida>        
+        </juego>
+    </biblioteca>
+</steam>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--Usando XML crea un fichero (ex3.xml) para representar 
+un libro de cocina. Este libro debe tener al menos dos 
+recetas. Estas recetas deben contener en ellas los 
+ingredientes y los pasos para llevarlas a cabo-->
+
+<librodecocina>lasrecetasdemivieja
+    <recetas>
+        <receta>Mandarino al wisky
+            <Ingredientes>
+                <ingrediente> ingrediente1</ingrediente>
+                <ingrediente> ingrediente2</ingrediente>
+                <ingrediente> ingrediente3</ingrediente>
+                <ingrediente> ingrediente4</ingrediente>
+                <ingrediente> ingrediente5</ingrediente>
+                <ingrediente> ingrediente6</ingrediente>
+                <ingrediente> ingrediente7</ingrediente>
+            </Ingredientes>
+            <Pasos>
+                <paso> paso1</paso>
+                <paso> paso2</paso>
+                <paso> paso3</paso>
+                <paso> paso4</paso>
+                <paso> paso5</paso>
+                <paso> paso6</paso>
+                <paso> paso7</paso>
+            </Pasos>
+        </receta>
+        <receta>Kinki de carlos
+            <Ingredientes>
+                <ingrediente> ingrediente1</ingrediente>
+                <ingrediente> ingrediente2</ingrediente>
+                <ingrediente> ingrediente3</ingrediente>
+                <ingrediente> ingrediente4</ingrediente>
+                <ingrediente> ingrediente5</ingrediente>
+                <ingrediente> ingrediente6</ingrediente>
+                <ingrediente> ingrediente7</ingrediente>
+            </Ingredientes>
+            <Pasos>
+                <paso> paso1</paso>
+                <paso> paso2</paso>
+                <paso> paso3</paso>
+                <paso> paso4</paso>
+                <paso> paso5</paso>
+                <paso> paso6</paso>
+                <paso> paso7</paso>
+            </Pasos>
+        </receta>
+    </recetas>
+</librodecocina>

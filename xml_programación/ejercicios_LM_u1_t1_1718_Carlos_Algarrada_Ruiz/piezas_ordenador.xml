@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+
+<!--Usando XML crea un fichero (ex2.xml) para representar el harware instalado en un ordenador. 
+Debemos guardar el nombre del equipo y cada pieza de hardware debe estar identificado por su tipo, 
+el fabricante, el precio de compra y sus diferentes características. 
+Toma como ejemplo un equipo real..-->
+
+<ordenador>
+    <nombre> ordenador ultra mix 20115151</nombre>
+    <piezas>
+        <componente>
+            <fabricante>fabricante</fabricante>
+            <precio>precio</precio>
+            <caracteristicas>
+                <caracteristica>caracteristica1</caracteristica>
+                <caracteristica>caracteristica2</caracteristica>
+            </caracteristicas>
+        </componente>
+            <fabricante>fabricante</fabricante>
+            <precio>precio</precio>
+            <caracteristicas>
+                <caracteristica>caracteristica1</caracteristica>
+                <caracteristica>caracteristica2</caracteristica>
+            </caracteristicas>            
+        <componente>
+            <fabricante>fabricante</fabricante>
+            <precio>precio</precio>
+            <caracteristicas>
+                <caracteristica>caracteristica1</caracteristica>
+                <caracteristica>caracteristica2</caracteristica>
+            </caracteristicas>
+        </componente>
+        <componente>
+            <fabricante>fabricante</fabricante>
+            <precio>precio</precio>
+            <caracteristicas>
+                <caracteristica>caracteristica1</caracteristica>
+                <caracteristica>caracteristica2</caracteristica>
+            </caracteristicas>
+        </componente>
+        <componente>
+            <fabricante>fabricante</fabricante>
+            <precio>precio</precio>
+            <caracteristicas>
+                <caracteristica>caracteristica1</caracteristica>
+                <caracteristica>caracteristica2</caracteristica>
+            </caracteristicas>
+        </componente>
+        <componente>
+            <fabricante>fabricante</fabricante>
+            <precio>precio</precio>
+            <caracteristicas>
+                <caracteristica>caracteristica1</caracteristica>
+                <caracteristica>caracteristica2</caracteristica>
+            </caracteristicas>
+        </componente>
+        <componente>
+            <fabricante>fabricante</fabricante>
+            <precio>precio</precio>
+            <caracteristicas>
+                <caracteristica>caracteristica1</caracteristica>
+                <caracteristica>caracteristica2</caracteristica>
+            </caracteristicas>
+        </componente>
+        <componente>
+            <fabricante>fabricante</fabricante>
+            <precio>precio</precio>
+            <caracteristicas>
+                <caracteristica>caracteristica1</caracteristica>
+                <caracteristica>caracteristica2</caracteristica>
+            </caracteristicas>
+        </componente>
+    </piezas>
+</ordenador>

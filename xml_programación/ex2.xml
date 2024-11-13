@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!--Usando XML crea un fichero (ex2.xml) para 
+repesentar una ruta de autobús. Debes almacenar 
+el nombre de la ruta, el horario y el nombre de las paradas.
+
+Piensa detenidamente los atributos e
+información a almacenar por cada etiqueta.-->
+<autobus>
+    <ruta>Ruta_de_la_miel
+        <Horario>09:00
+            <Parada>Parada_de_Juan
+                <calle>San_Juan</calle>
+            </Parada>
+        </Horario>
+        <Horario>09:30
+            <Parada>Parada_de_Miguel
+                <Calle> Miguel_d_cervantes</Calle>
+            </Parada>
+        </Horario>
+        <Horario>10:00
+            <Parada>Parada_de_Emilio
+                <Calle> San_emilio_obrador</Calle>
+            </Parada>
+        </Horario>    
+        <Horario>10:30
+            <Parada>Parada_de_Oscar
+                <calle>Dr.oscar_d_Agustín</calle>
+            </Parada>
+        </Horario>    
+        <Horario>11:00
+            <Parada>Parada_de_Jilguero
+                <calle>pajaro_Jilguero</calle>
+            </Parada>
+        </Horario>
+        <Horario>11:30
+            <Parada>Parada_de_Zaida
+                <calle>Princesa_Zaida</calle>
+            </Parada>
+        </Horario>            
+        <Horario>12:00
+            <Parada>Parada_de_Ana
+                <calle>Ana_de_santiago</calle>
+            </Parada>
+        </Horario>        
+    </ruta>
+</autobus>

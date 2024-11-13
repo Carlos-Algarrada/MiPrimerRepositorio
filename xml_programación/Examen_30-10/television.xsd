@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Canales_televsion">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name= "canal" minOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dia" minOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Programa">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="duración" type="xs:string"/>
+                                                    <xs:element name="descripcion" type="xs:string"/>
+                                                    <xs:element name="clasidicacion_de_edad" type="xs:positiveInteger"/>
+                                                    <xs:element name="capitulo" type="xs:string"/>
+                                                    <xs:element name="anuncios" type="xs:positiveInteger"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="Dia" type= "xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="numero_canal" type="xs:positiveInteger"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

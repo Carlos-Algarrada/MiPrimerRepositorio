@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!-- Usando XML crea un fichero (ex1.xml) para representar los profesores que dan
+ al menos dos asignaturas y tienen 10 alumnos por cada una de ellas.
+Piensa detenidamente los atributos e información a almacenar por cada etiqueta.-->
+<profesores>
+    <profesor>
+         <nombre> miguel</nombre>
+         <asignaturas>
+            <asignatura>lenguaje de marcas
+                <alumnos>
+                    <alumno>Pepe</alumno>
+                    <alumno>Pepito</alumno>
+                    <alumno>Jose</alumno>
+                    <alumno>Joselito</alumno>
+                    <alumno>Josepe</alumno>
+                    <alumno>Josecho</alumno>
+                    <alumno>Jota</alumno>
+                    <alumno>Joseli</alumno>
+                    <alumno>Josesito</alumno>
+                    <alumno>Josua</alumno>
+                </alumnos>
+            </asignatura>
+            <asignatura>digitalización
+                <alumnos>
+                    <alumno>Perez</alumno>
+                    <alumno>Antonio</alumno>
+                    <alumno>Miguelillo</alumno>
+                    <alumno>Tony</alumno>
+                    <alumno>Miguelo</alumno>
+                    <alumno>Tonacho</alumno>
+                    <alumno>Loquillo</alumno>
+                    <alumno>Chinchetto</alumno>
+                    <alumno>Manolo</alumno>
+                    <alumno>Piqueras</alumno>
+                </alumnos>
+            </asignatura>
+        </asignaturas>     
+    </profesor>
+    <profesor>
+         <nombre> Teofilo</nombre>
+         <asignaturas>
+            <asignatura>
+                <nombre>Entorno de desarrollo</nombre>
+                <alumnos>
+                    <alumno>Darian</alumno>
+                    <alumno>Kael</alumno>
+                    <alumno>Thoren</alumno>
+                    <alumno>Elysian</alumno>
+                    <alumno>Zephyr</alumno>
+                    <alumno>Lysander</alumno>
+                    <alumno>Corin</alumno>
+                    <alumno>Jareth</alumno>
+                    <alumno>Finnian</alumno>
+                    <alumno>Alaric</alumno>
+                </alumnos>
+            </asignatura>
+            <asignatura>
+                <nombre>Base de datos</nombre>
+                <alumnos>
+                    <alumno>Rodolfo</alumno>
+                    <alumno>Gene</alumno>
+                    <alumno>Dewitt</alumno>
+                    <alumno>Leroy</alumno>
+                    <alumno>Felipe</alumno>
+                    <alumno>Steven</alumno>
+                    <alumno>Milo</alumno>
+                    <alumno>Kurtis</alumno>
+                    <alumno>Elliot</alumno>
+                    <alumno>Hershel</alumno>
+                </alumnos>
+            </asignatura>
+        </asignaturas> 
+    </profesor>  
+</profesores>

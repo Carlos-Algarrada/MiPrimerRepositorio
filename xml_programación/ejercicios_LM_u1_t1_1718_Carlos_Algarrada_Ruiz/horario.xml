@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+
+<!--Usando XML crea un fichero (ex3.xml) para representar tu horario de clase. 
+Debe incluir el aula, información sobre los profesores y sobre la asignatura 
+cursada en cada tramo horario...-->
+
+<horario>
+    <aula>
+        <profesores>
+            <profesor>
+                <nombre> nombre </nombre>
+                <asignatura> asignatura1 </asignatura>
+                <asignatura> asignatura2 </asignatura>
+            </profesor>
+            <profesor>
+                <nombre> nombre </nombre>
+                <asignatura> asignatura3 </asignatura>
+                <asignatura> asignatura4 </asignatura>
+            </profesor>
+            <profesor>
+                <nombre> nombre </nombre>
+                <asignatura> asignatura5 </asignatura>
+                <asignatura> asignatura6 </asignatura>
+            </profesor>
+        </profesores>
+        <dias>
+            <dia>
+                <hora>
+                    <asignatura> asignatura1</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura1</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura2</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura2</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura3</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura4</asignatura>                
+                </hora>
+            </dia>
+            <dia>
+                <hora>
+                    <asignatura> asignatura2</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura2</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura3</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura3</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura4</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura5</asignatura>                
+                </hora>
+            </dia>
+            <dia>
+                <hora>
+                    <asignatura> asignatura3</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura3</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura4</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura4</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura5</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura6</asignatura>                
+                </hora>
+            </dia>
+            <dia>
+                <hora>
+                    <asignatura> asignatura4</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura4</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura5</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura5</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura6</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura1</asignatura>                
+                </hora>
+            </dia>
+            <dia>
+                <hora>
+                    <asignatura> asignatura5</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura5</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura6</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura6</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura1</asignatura>                
+                </hora>
+                <hora>
+                    <asignatura> asignatura2</asignatura>                
+                </hora>
+            </dia>
+        </dias>
+    </aula>
+</horario>
