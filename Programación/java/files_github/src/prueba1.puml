@@ -1,0 +1,16 @@
+@startuml
+class Estudiante {
+  - nombre : String
+  - edad : int
+  - matricula : String
+  + registrar() : void
+  + mostrarInformacion() : void
+}
+
+Estudiante : +setNombre(nombre : String)
+Estudiante : +setEdad(edad : int)
+Estudiante : +setMatricula(matricula : String)
+Estudiante : +getNombre() : String
+Estudiante : +getEdad() : int
+Estudiante : +getMatricula() : String
+@enduml

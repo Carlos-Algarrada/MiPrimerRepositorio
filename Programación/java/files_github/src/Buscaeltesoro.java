@@ -1,3 +1,5 @@
+package files_github.src;
+
 import java.util.Scanner;
 
 public class Buscaeltesoro {
