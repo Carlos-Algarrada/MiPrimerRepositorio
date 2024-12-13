@@ -1,0 +1,17 @@
+@startuml
+class Calculadora {
+    + sumar(a: double, b: double): double
+    + restar(a: double, b: double): double
+    + multiplicar(a: double, b: double): double
+    + dividir(a: double, b: double): double
+}
+
+class Operacion {
+    - operando1: double
+    - operando2: double
+    - resultado: double
+    + calcular(): double
+}
+
+Calculadora "1" --> "*" Operacion : usa
+@enduml

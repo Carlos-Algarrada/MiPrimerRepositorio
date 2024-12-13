@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width:100%;
+    display:grid;
+    height: 100%;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+h4{
+    text-align: center;
+}
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
+a:visited{
+    text-decoration: none;
+    color: red;
+}
+a:link{
+    text-decoration: none;
+    color:green;
+}
+th{
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-family:"DejaVu Sans Light";
+    font-size: 15px;
+}
+th:first-letter{
+    text-transform: uppercase;
+    font-size: 200%;
+}
+.required{
+    color: red;
+}
+input[type="email"] {
+    border: 2px solid red;
+    padding: 5px;
+}
+
+input:required {
+    margin-bottom: 5px;
+}
+
+.Viernes:hover{
+    font-size: 200%;
+}
+td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td:nth-child(1){
+    background-color:green ;
+    text-align: left;
+}
+tr:nth-child(4) td:nth-child(2){
+    background-color: yellow;
+}
+.img{
+    width: 50px;
+    height: 50px;
+}

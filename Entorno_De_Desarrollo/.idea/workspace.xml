@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4af36029-806e-4362-a775-5672f594a5bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/calculadora/calculadora.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/holamundo/holamundo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/holamundojava/holamundojava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/holamundojava/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programación/java/files_github/src/Cuadrado/cuadrado1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programación/java/files_github/src/ejerciciosclase/main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programación/java/files_github/src/ejerciciospoo/ejercicio6tiempo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programación/java/files_github/src/ejerciciospoo/ejercicio7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmtlcss/LM_U2_T1:Basic_HTML_Ex4/Ex2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmtlcss/LM_U2_T1:Basic_HTML_Ex4/Ex3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmtlcss/LM_U2_T1:Basic_HTML_Ex4/Ex4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmtlcss/LM_U2_T1:Basic_HTML_Ex4/Ex5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmtlcss/pruebaexamen/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programación/java/files_github/src/ejerciciosclase/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmtlcss/6-11-2024/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hmtlcss/6-11-2024/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="6h54xcrc" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2pivpV34DMd5hvyLxpotRimJjvL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/carlos/Escritorio/Github/MiPrimerRepositorio/Entorno_De_Desarrollo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.first.attach.projects": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4af36029-806e-4362-a775-5672f594a5bb" name="Changes" comment="" />
+      <created>1733261894177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733261894177</updated>
+      <workItem from="1733261895335" duration="1089000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

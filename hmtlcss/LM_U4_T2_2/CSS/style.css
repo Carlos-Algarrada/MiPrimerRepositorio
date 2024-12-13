@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    width: 100%;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    grid-template-areas:"cabecera cabecera"
+                        "informacon menu";
+}
+
+#cabecera{
+    width: 100vw;
+    grid-area: cabecera;
+    background-color: #3A4130;
+}
+#informacion {
+    grid-area: informacion;
+    background-color: #BA9561;
+}
+#menu{
+    grid-area: menu;
+    background-color:#BA9561 ;
+
+}
+#coso{
+    background-color:#41BCD1;
+}
