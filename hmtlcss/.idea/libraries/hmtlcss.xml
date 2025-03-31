@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="hmtlcss">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LM_U2_T1:Basic_HTML_Ex4_Algarrada_Ruiz_Carlos.zip!/" />
+      <root url="jar://$PROJECT_DIR$/LM_U3_T1:Selectores.zip!/" />
+      <root url="jar://$PROJECT_DIR$/LM_U4_T2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/diseñosresponsivos.zip!/" />
+      <root url="jar://$PROJECT_DIR$/repaso_maquetacion.zip!/" />
+      <root url="jar://$PROJECT_DIR$/repaso_maquetacion2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/LM_U2_T1:Basic_HTML_Ex2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/LM_U3:Pseudoselectores.zip!/" />
+      <root url="jar://$PROJECT_DIR$/diseñoresponsivo2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/diseñoresponsivo.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

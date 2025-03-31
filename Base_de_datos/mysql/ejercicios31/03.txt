@@ -1,0 +1,9 @@
+
+select*from producto where precio >=(select max(precio) 
+    from producto where id_fabricante = (select id 
+        from fabricante where nombre = 'Lenovo'));
+-- select id from fabricante where nombre ='Asus';
+-- select avg(precio) as precio_medio from producto where id_fabricante=1;
+select*from producto where precio > (select avg(precio) as precio_medio from producto 
+where id_fabricante=(select id from fabricante where nombre ='Asus')) 
+and id_fabricante =(select id from fabricante where nombre ='Asus') ;

@@ -1,0 +1,150 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h5, p {
+    word-wrap: break-word;
+}
+.navbar {
+    background-color: #343a40;
+    color: #fff;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-nav .nav-link {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+
+
+header {
+    background-color: #28a745; 
+    color: #fff; 
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #e9ecef;
+}
+
+.features h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.features {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+.features .feature {
+    margin-bottom: 2rem;
+}
+.features .feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+.features p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+
+
+.portfolio {
+    padding: 2rem 0;
+    background-color: #f8f9fa;
+}
+
+.portfolio img {
+    border: 2px solid #ddd;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio h5 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.portfolio p {
+    font-size: 1rem;
+    color: #6c757d;
+    text-align: justify;
+}
+
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    font-size: 0.9rem;
+}

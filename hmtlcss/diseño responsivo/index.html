@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diseño Responsivo</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="cabecera">
+            <div class = logo>
+                <img id="logos" src="source/Logo.svg">
+            </div>
+            <div id="titulo">
+                <h1>[Guia] 10 Lugares para um final de semana de Aventura!</h1>
+                <h4> Conheça dicas de lugares para quem busca contacto com a natureza.</h4>
+            </div>
+        </div>
+        <div id="cuerpo">
+            <div id="imagen">
+                <img src="source/imagen.png">
+                <h3> Todas as regiões do Brasil</h3>
+                <p>Selecionamos dois lugares para cada região do Brasil para vocé aproveitar uma aventura de final de semana em contato com a natureza</p>
+            </div>
+            <div id="formula1">
+                <div id="brasileiro">
+                    <h3> Faça o download grátis aqui!</h3>
+                    <p> Basta preencher o formulário abaixo</p>
+                </div>
+                <div id="formula2">
+                    <form>
+                        <label for="name">Nome*</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="estado">Estado*</label>
+                        <select id="estado" name="estado" required>
+                            <option value="">Selecione</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="MG">Minas Gerais</option>
+                        </select>
+                        <fieldset>
+                            <legend>Vocé practica que tipo de aventura?*</legend>
+                            <label>
+                                <input type="checkbox" name="aventura" value="trekking">
+                                Trekking
+                            </label>
+                            <label>
+                                <input type="checkbox" name="aventura" value="montanhismo">
+                                Montanhismo
+                            </label>
+                        </fieldset>
+
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
